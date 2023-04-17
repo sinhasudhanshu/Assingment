@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.104.2">
+  <title>Headers · Bootstrap v5.2</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+
+
+
+
+
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="headers.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="check" viewBox="0 0 16 16">
+      <title>Check</title>
+      <path
+        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+    </symbol>
+  </svg>
+
+
+  <!-- Header Section -->
+  <div class="container-fluid">
+    <div class="col-md-12">
+
+    </div>
+  </div>
+
+
+  <!-- Header Section -->
+  <!-- Nav Bar -->
+  <main>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hero</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutsection">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicesection">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+  </main>
+  <!-- Nav Bar -->
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Hero Section -->
+  <div class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+          popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
+          prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Section -->
+  <!-- About Section  -->
+  <div id="aboutsection" class="container-fluid">
+    <div class="row">
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">About Section</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#toggles2" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">About Company</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-primary">
+                Primary button
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#cpu-fill" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">About Mission Statement</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-primary">
+                Primary button
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#tools" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">About Values </h3>
+
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-primary">
+                Primary button
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+  <!-- About Section  -->
+  <!-- Service Section  -->
+  Service Section
+  <div id="servicesection" class="container-fluid">
+    <div class="col-md-12">
+
+      <main>
+        <h2 class="pb-2 border-bottom">Service Section</h2>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th style="width: 34%;"></th>
+                <th style="width: 22%;">Free</th>
+                <th style="width: 22%;">Pro</th>
+                <th style="width: 22%;">Enterprise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Public</th>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Private</th>
+                <td></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Permissions</th>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Sharing</th>
+                <td></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Unlimited members</th>
+                <td></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Extra security</th>
+                <td></td>
+                <td></td>
+                <td><svg class="bi" width="24" height="24">
+                    <use xlink:href="#check" />
+                  </svg></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+
+
+    </div>
+  </div>
+
+
+  <!-- Service Section  -->
+</body>
+
+</html>
